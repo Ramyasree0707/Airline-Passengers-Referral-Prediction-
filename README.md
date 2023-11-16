@@ -18,20 +18,35 @@ The main objective is to create a model that can predict whether a traveller wil
 
 **Description of Features**
 
-airline: Name of the airline.
-overall: Overall rating given to the trip on a scale of 1 to 10.
-author: Author of the trip.
-reviewdate: Date of the review.
-customer review: Review of the customers in free text format.
-aircraft: Type of the aircraft.
-travellertype: Type of traveler (e.g., business, leisure).
-cabin: Cabin on the flight.
-date flown: Flight date.
-seatcomfort: Rated between 1-5.
-cabin service: Rated between 1-5.
-foodbev: Rated between 1-5.
-entertainment: Rated between 1-5.
-groundservice: Rated between 1-5.
-valueformoney: Rated between 1-5.
-recommended: Binary target variable (0 or 1).
+   airline: Name of the airline.
+   
+   overall: Overall rating given to the trip on a scale of 1 to 10.
+   
+   author: Author of the trip.
+   
+   reviewdate: Date of the review.
+   
+   customer review: Review of the customers in free text format.
+   
+   aircraft: Type of the aircraft.
+   
+   travellertype: Type of traveler (e.g., business, leisure).
+   
+   cabin: Cabin on the flight.
+   
+   date flown: Flight date.
+   
+   seatcomfort: Rated between 1-5.
+   
+   cabin service: Rated between 1-5.
+   
+   foodbev: Rated between 1-5.
+   
+   entertainment: Rated between 1-5.
+   
+   groundservice: Rated between 1-5.
+   
+   valueformoney: Rated between 1-5.
+   
+   recommended: Binary target variable (0 or 1).
 

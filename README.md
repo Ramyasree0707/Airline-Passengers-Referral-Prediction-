@@ -1,20 +1,10 @@
 # Airline-Passengers-Referral-Prediction
-Predicting aircraft passenger referrals and uncovering the main influencing factors can help airlines improve their services and gain a competitive edge. This repository contains a machine learning project focused on predicting whether a passenger will refer an airline to others. We will explore a dataset that includes past passengers' referral behavior, as well as various features such as cabin, traveller type, date flow and route information. By identifying potential advocates, airlines can improve customer satisfaction and loyalty while attracting new customers.
 
-**Table of Contents**
 
-1. Objective
-2. Description of Features
-3. Data Preparation
-4. Exploratory Data Analysis (EDA)
-5. Feature Engineering & Data Pre-processing
-6. Model Building
-7. Model Evaluation
-8. Conclusion
-   
-**Objective**
+The main objective of this project is to create a model that can predict whether a traveller will recommend his or her flight to their family,friends and the public.
 
-The main objective is to create a model that can predict whether a traveller will recommend his or her flight to their family,friends and the public.
+**Problem Statement**
+Data includes airline reviews from 2006 to 2019 for popular airlines around the world with multiple choice and free text questions. Data is scraped in Spring 2019. The main objective is to predict whether passengers will refer the airline to their friends.
 
 **Description of Features**
 
@@ -50,3 +40,33 @@ The main objective is to create a model that can predict whether a traveller wil
    
    recommended: Binary target variable (0 or 1).
 
+**Data Preparation**
+   1. Dropping rows with entirely missing values.
+   2. Dropping columns that do not add value for analysis.
+   3. Removing duplicates.
+      
+****Exploratory Data Analysis (EDA)**
+
+EDA helps us gain insights into the data, detect errors, understand data patterns, and identify relationships between variables. Some key findings from EDA include:
+
+1. Relationship between traveler types and ratings.
+2. Relationship between cabin and ratings.
+3. Distribution of ratings.
+4. Correlation between variables.
+
+**Feature Engineering & Data Pre-processing**
+
+1. Handling missing values and imputing missing values using the median and mode.
+2. Categorical encoding using One-Hot encoding.
+3. Handling Multicollinearity.
+
+**Model Building**
+
+We implemented the following machine learning models:
+
+1. Logistic Regression
+2. Random Forest Classifier
+3. Support Vector Machine
+
+**Conclusion**
+In this project, we conducted a comprehensive analysis to predict airline passenger referrals. We explored the dataset, built and evaluated multiple machine learning models, and selected the Support Vector Machine (SVM) model with hyperparameter tuning as our final prediction model due to its high accuracy. The project's insights can assist airlines in understanding passenger preferences and optimizing their services to enhance customer satisfaction and referrals.

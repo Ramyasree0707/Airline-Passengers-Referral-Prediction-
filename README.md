@@ -1,1 +1,3 @@
 # Airline-Passengers-Referral-Prediction-
+Airline Passenger Referral Prediction
+Predicting aircraft passenger referrals and uncovering the main influencing factors can help airlines improve their services and gain a competitive edge. This repository contains a machine learning project focused on predicting whether a passenger will refer an airline to others. We will explore a dataset that includes past passengers' referral behavior, as well as various features such as age, gender, flight class, and route information. By identifying potential advocates, airlines can improve customer satisfaction and loyalty while attracting new customers.

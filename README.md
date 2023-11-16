@@ -4,6 +4,7 @@
 The main objective of this project is to create a model that can predict whether a traveller will recommend his or her flight to their family,friends and the public.
 
 **Problem Statement**
+
 Data includes airline reviews from 2006 to 2019 for popular airlines around the world with multiple choice and free text questions. Data is scraped in Spring 2019. The main objective is to predict whether passengers will refer the airline to their friends.
 
 **Description of Features**
@@ -45,7 +46,7 @@ Data includes airline reviews from 2006 to 2019 for popular airlines around the 
    2. Dropping columns that do not add value for analysis.
    3. Removing duplicates.
       
-****Exploratory Data Analysis (EDA)**
+**Exploratory Data Analysis (EDA)**
 
 EDA helps us gain insights into the data, detect errors, understand data patterns, and identify relationships between variables. Some key findings from EDA include:
 
@@ -69,4 +70,5 @@ We implemented the following machine learning models:
 3. Support Vector Machine
 
 **Conclusion**
+
 In this project, we conducted a comprehensive analysis to predict airline passenger referrals. We explored the dataset, built and evaluated multiple machine learning models, and selected the Support Vector Machine (SVM) model with hyperparameter tuning as our final prediction model due to its high accuracy. The project's insights can assist airlines in understanding passenger preferences and optimizing their services to enhance customer satisfaction and referrals.
